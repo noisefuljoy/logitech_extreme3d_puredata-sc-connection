@@ -1,4 +1,4 @@
-#N canvas -1 -1 1920 1011 12;
+#N canvas 586 30 1920 1011 12;
 #X floatatom 27 666 5 0 0 0 - - - 0;
 #X floatatom 83 666 5 0 0 0 - - - 0;
 #X floatatom 35 390 6 0 0 0 - - - 0;
@@ -135,8 +135,8 @@
 #X restore 197 303 pd test;
 #X obj 249 300 pddp/print;
 #N canvas 162 133 570 420 serin 0;
-#X obj 286 61 cnv 15 30 15 empty \$0-open-canvas 4 4 8 0 14 #e0e0e0 #000000 0;
-#X obj 60 61 hradio 15 1 1 15 empty empty empty 0 -6 0 8 #d8fcd8 #000000 #000000 4;
+#X obj 286 61 cnv 15 30 15 empty \$0-open-canvas 10 4 8 0 14 #e0e0e0 #000000 0;
+#X obj 60 61 hradio 15 1 1 15 empty empty empty 0 -6 0 8 #d8fcd8 #000000 #000000 10;
 #X obj 60 13 inlet;
 #X msg 200 202 label \$1;
 #X obj 200 180 makefilename %d;
@@ -160,7 +160,7 @@
 #X connect 10 0 8 0;
 #X coords 0 -1 1 1 257 17 1 60 60;
 #X restore 262 92 pd serin;
-#X msg 262 114 open 4;
+#X msg 262 114 open 10;
 #X text 437 141 comment;
 #X text 435 117 comment;
 #X text 437 162 comment;
